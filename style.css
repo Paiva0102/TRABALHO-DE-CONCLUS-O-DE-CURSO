@@ -1,8 +1,8 @@
 ﻿:root {
-  --verde-principal: #2D89EF;
-  --verde-secundario: #555555;
+  --azul-principal: #2D89EF;
+  --subtitulo: #555555;
   --fundo: #F5F5F5;
-  --texto: #2D89EF;
+  --texto: #222222;
 }
 
 * {
@@ -50,19 +50,19 @@ main {
   border-radius: 0;
 }
 
-.noticia-texto h2 {
-  color: var(--verde-principal);
-  margin-bottom: 10px;
+.noticia-texto h2,
+.caixa h2 {
+  color: var(--azul-principal);
 }
 
-.noticia-texto h3 {
-  color: var(--verde-secundario);
-  margin-top: 10px;
-  font-size: 1rem;
+.noticia-texto h3,
+.caixa h3 {
+  color: var(--subtitulo);
 }
 
-.noticia-texto p {
-  margin-top: 6px;
+.noticia-texto p,
+.caixa p {
+  color: var(--texto);
 }
 
 .galeria-imagens {
