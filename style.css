@@ -1,8 +1,8 @@
 ﻿:root {
-  --verde-principal: #2e7d32;
+  --verde-principal: #2D89EF;
   --verde-secundario: #3f8f45;
-  --fundo: #f8fbf8;
-  --texto: #222222;
+  --fundo: #F5F5F5;
+  --texto: #2D89EF;
 }
 
 * {
